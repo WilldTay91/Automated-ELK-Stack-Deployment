@@ -66,4 +66,4 @@ The playbook implements the following tasks:
 - Download and launch ELK container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-!(https://github.com/WilldTay91/Automated-ELK-Stack-Deployment/blob/master/ELK-Stack_Screen-Shots/docker_ps.png)
+![Docker.ps](https://github.com/WilldTay91/Automated-ELK-Stack-Deployment/blob/master/ELK-Stack_Screen-Shots/docker_ps.png)
