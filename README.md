@@ -67,3 +67,26 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 ![Docker.ps](https://github.com/WilldTay91/Automated-ELK-Stack-Deployment/blob/master/ELK-Stack_Screen-Shots/docker_ps.png)
+
+### Target Machines & Beats
+This ELK server is configured to monitor the following machines:
+- 10.0.0.5
+- 10.0.0.6
+- 10.0.0.7
+
+We have installed the following Beats on these machines:
+- Filebeat
+- Metricbeat
+
+Filebeat allows us to gather log data from each machine, while Metricbeat allows us to gather system statistics from each machine.
+
+### Using the Playbook
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
+
+SSH into the control node and follow the steps below:
+- Copy the .yml file to /etc/ansible/roles.
+- Update the config.yml file to include the group of target machines.
+- Run the playbook, and navigate to http://52.175.215.241:5601/app/kibana#/home to check that the installation worked as expected.
+
+For Elk installation, use this command in '/etc/ansible' filepath:
+install-elk.yml `curl https://github.com/WilldTay91/Automated-ELK-Stack-Deployment/blob/master/VM_Config_Files/Install-ELK.yml’
