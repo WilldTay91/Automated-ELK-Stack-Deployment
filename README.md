@@ -44,7 +44,7 @@ The machines on the internal network are not exposed to the public Internet.
 
 Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP address: 73.220.175.58
 
-Machines within the network can only be accessed by Jump-Box, with the IP address of 
+Machines within the network can only be accessed by Jump-Box, with the IP address of 10.0.0.4
 
 A summary of the access policies in place can be found in the table below.
 | Name        | Publicly Accessible | Allowed Ports   | Allowed IP Addresses                                  |
