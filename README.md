@@ -24,7 +24,7 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
-Load balancers offer security on the application layer, making it's routing decsions based off highly detailed information gathered from incoming traffic, while also keeping the network redundant.
+Load balancers offer security on the application layer, making it's routing decisions based off highly detailed information gathered from incoming traffic, while also keeping the network redundant.
 To add even more security to the network, we ensured the only node that is externally exposed is the Jump-Box, while access to any other node on the network is restricted by SSH key. The Jump-Box is not externally exposed to the internet, but rather specific IPs through a security group configured with strict internal and external rule sets.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log data and system statistics.
