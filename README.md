@@ -50,10 +50,10 @@ A summary of the access policies in place can be found in the table below.
 | Name        | Publicly Accessible | Allowed Ports   | Allowed IP Addresses                                  |
 |-------------|---------------------|-----------------|-------------------------------------------------------|
 | Jump-Box    | Yes                 | 3389,22,80,5601 | 73.220.175.57, 10.0.0.5, 10.0.0.6, 10.0.0.7, 10.0.0.8 |
-| Web1        | No                  | 22              | 10.0.0.4,10.0.0.8                                     |
-| Web2        | No                  | 22              | 10.0.0.4,10.0.0.8                                     |
-| Web3        | No                  | 22              | 10.0.0.4,10.0.0.8                                     |
-| ELK-Machine | Yes                 | 5601,22         | 10.0.0.4,52.175.215.241                               |
+| Web1        | No                  | 22              | 10.0.0.4, 10.0.0.8                                     |
+| Web2        | No                  | 22              | 10.0.0.4, 10.0.0.8                                     |
+| Web3        | No                  | 22              | 10.0.0.4, 10.0.0.8                                     |
+| ELK-Machine | Yes                 | 5601,22         | 10.0.0.4, 52.175.215.241                               |
 
 ### Elk Configuration
 
